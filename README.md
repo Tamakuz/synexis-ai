@@ -1,8 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Synexis - AI-Powered Generation Platform
+
+This is a [Next.js](https://nextjs.org) project that provides AI-powered image generation using Google's Imagen API.
+
+## Features
+
+- **Multi-Engine AI Generation**: Choose between Synexis Vision Pro and Synexis Flux Engine
+- **Synexis Vision Pro**: Advanced neural network for photorealistic image generation
+- **Synexis Flux Engine**: High-performance creative AI for artistic image synthesis
+- **Multiple Styles**: Support for realistic, artistic, anime, and digital art styles
+- **AI-Powered Suggestions**: Smart prompt suggestions with structured breakdowns
+- **Dropdown Model Selection**: Clean dropdown interface for AI engine selection
+- **Responsive Design**: Modern UI with dark theme
+- **Modular Architecture**: Clean separation of concerns with reusable components
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+1. **Google AI API Key**: Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. **Hugging Face Token**: Get your token from [Hugging Face Settings](https://huggingface.co/settings/tokens)
+3. Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_GOOGLE_AI_API_KEY=your_google_ai_api_key_here
+NEXT_PUBLIC_HF_TOKEN=your_huggingface_token_here
+```
+
+### Installation
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the development server:
 
 ```bash
 npm run dev
